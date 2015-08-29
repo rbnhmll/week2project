@@ -194,14 +194,31 @@ li {
 
 .skill-container {
 	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
 }
 
 .skill {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
 	background: #fff;
 	display: inline-block;
-	max-width: 250px;
-	width: calc(25% - 20px);
-	margin: 10px;
+	width: 250px;
 	padding: 20px;
 }
 
